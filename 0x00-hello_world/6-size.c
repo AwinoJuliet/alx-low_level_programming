@@ -1,17 +1,6 @@
 #include <stdio.h>
-
-/**
- *main-entry point
- *
- *Return:Always 0 (success)
- */
-int main(void)
-{
-     int A;
- long int B;
- long long int C;
- char D
- float F; 
+int main()
+{ 
 printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(D));
 printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(A));
 printf("size of  long int: %lu byte(s)\n", (unsigned long)sizeof(B));
