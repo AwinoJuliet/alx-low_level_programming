@@ -1,6 +1,10 @@
 #include <stdio.h>
+/**
+ * This is the main function.
+ * It displays the size of different data types.
+ */
 int main(void)
-{
+{	
 char D;
 int A;
 long int B;
