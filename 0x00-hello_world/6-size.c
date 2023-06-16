@@ -3,7 +3,7 @@
  * This is the main function.
  * It displays the size of different data types.
  */
-int main(void)
+int main()
 {	
 char D;
 int A;
