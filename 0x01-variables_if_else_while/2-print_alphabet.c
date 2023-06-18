@@ -1,17 +1,18 @@
 #include <stdio.h>
+
 /**
- *main-Entry point print alphabs except q,e
+ * main - Entry point of the program
  *
- *Return:Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char l;
+	char letter;
 
-for (l = a ; l <= z ; l++)
-{
-putchar(l);
-}
-putchar(n);
-return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }
