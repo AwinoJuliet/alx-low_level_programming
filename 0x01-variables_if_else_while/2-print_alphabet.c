@@ -1,9 +1,17 @@
 #include <stdio.h>
-int main() {
-    char ch;
-    for (ch = 'a'; ch <= 'z'; ch++) {
-        putchar(ch);
-    }
-    putchar('\n');
-    return 0;
+/**
+ *main-Entry point print alphabs except q,e
+ *
+ *Return:Always 0 (success)
+ */
+int main(void)
+{
+char l;
+
+for (l = a ; l <= z ; l++)
+{
+putchar(l);
+}
+putchar(n);
+return (0);
 }
