@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_sign - Prints the sign of a number.
  * @n: The number to check.
@@ -24,27 +26,3 @@ int print_sign(int n)
 		return (-1);
 	}
 }
-
-/**
- * main - Entry point of the program.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	int number = -10;
-	int result = print_sign(number);
-	_putchar('\n');
-	_putchar('S');
-	_putchar('i');
-	_putchar('g');
-	_putchar('n');
-	_putchar(':');
-	_putchar(' ');
-	char sign = result == 1 ? '+' : result == 0 ? '0' : '-';
-	_putchar(sign);
-	_putchar('\n');
-
-	return (0);
-}
-
