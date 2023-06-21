@@ -1,18 +1,21 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
- *_abs:checks returns absolute value of an integer number c
+ * _abs - Returns the absolute value of an integer number.
+ * @c: The number to check.
  *
- *Return:0 (success)
+ * Return: The absolute value of @c.
  */
 int _abs(int c)
 {
-if (c > 0 || c == 0)
-{
-return (c);
+	if (c > 0 || c == 0)
+	{
+		return (c);
+	}
+	else
+	{
+		return (c * -1);
+	}
 }
-else
-{
-return (c * -1);
-}
-}
+
