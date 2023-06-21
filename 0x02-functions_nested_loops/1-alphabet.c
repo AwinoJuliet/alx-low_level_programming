@@ -1,16 +1,17 @@
 #include "main.h"
+
 /**
- *main func descrip do something
- *
- *Return:0 (success)
+ * print_alphabet - Prints the alphabet in lowercase
  */
 void print_alphabet(void)
 {
-char ch;
+	char letter = 'a';
 
-for (ch = 'a' ; ch <= 'z' ; ch++)
-{
-_putchar(ch);
-}
-_putchar('\n');
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+
+	_putchar('\n');
 }
