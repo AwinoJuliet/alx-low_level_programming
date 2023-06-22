@@ -1,23 +1,17 @@
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
-/**
- *main-causes an infinite loop
- *@int:void
- *
- *Return : 0 (success)
- */
-int main(void)
-{
-int i;
-printf("Infinite loop incoming :(\n");
-i = 0;
-/*
- *while (i < 10)
- *{
- *Infinite loop-No increase of variable
- *putchar(i);
- *}
- */printf("Infinite loop avoided! \\o/\n");
- return (0);
 
-}
+/*Function that give the sighn of any num*/
+void positive_or_negative(int i);
+
+/*Function that give the largest number of the 3*/
+int largest_number(int a, int b, int c);
+
+/*Function that convert day*/
+int convert_day(int month, int day);
+
+/*Function that print remaining days*/
+void print_remainig_days(int month, int day, int year);
+#endif /*MAIN_H*/
