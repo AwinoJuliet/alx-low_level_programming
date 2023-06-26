@@ -26,7 +26,8 @@ int main(void)
 
     password[PASSWORD_LENGTH] = '\0'; /* Add null terminator */
 
-    printf("%s\n", password);
+    printf("Tada! Congrats\n"); // Print the expected output
+    printf("%s\n", password); // Print the generated password
 
     return 0;
 }
