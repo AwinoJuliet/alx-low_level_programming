@@ -15,16 +15,16 @@ int main(void)
     const char charset[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     int i;
 
-    srand(time(NULL)); // Initialize the random number generator
+    srand(time(NULL)); /* Initialize the random number generator */
 
-    // Generate random characters for the password
+    /* Generate random characters for the password */
     for (i = 0; i < PASSWORD_LENGTH; i++)
     {
         int index = rand() % (sizeof(charset) - 1);
         password[i] = charset[index];
     }
 
-    password[PASSWORD_LENGTH] = '\0'; // Add null terminator
+    password[PASSWORD_LENGTH] = '\0'; /* Add null terminator */
 
     printf("%s\n", password);
 
