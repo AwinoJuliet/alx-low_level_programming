@@ -28,10 +28,5 @@ int main(void)
 
     printf("%s\n", password);
 
-    /* Run 101-crackme with the generated password */
-    char command[100];
-    snprintf(command, sizeof(command), "./101-crackme \"%s\"", password);
-    system(command);
-
     return 0;
 }
