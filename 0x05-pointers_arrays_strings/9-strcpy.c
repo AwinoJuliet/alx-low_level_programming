@@ -1,19 +1,23 @@
 #include "main.h"
-#include "unistd.h"
+
 /**
- *_strcpy - reverse q string
- *@dest: buffer tocopy string to
- *@src: the source string tocopy
+ * _strcpy - Copies a string from source to destination.
+ * @dest: The destination buffer.
+ * @src: The source string.
  *
- *Return: a pointer to destination
+ * Return: A pointer to the destination string.
  */
 char *_strcpy(char *dest, char *src)
 {
-int index = 0;
-while (src[index])
-{
-dest[index] = src[index];
-index++;
-}
-return (dest);
+	int index = 0;
+
+	while (src[index])
+	{
+		dest[index] = src[index];
+		index++;
+	}
+
+	dest[index] = '\0';
+
+	return (dest);
 }
